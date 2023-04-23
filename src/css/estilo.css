@@ -1,0 +1,188 @@
+/* Geral */
+#index {
+    background: url(../Imagen/fundo.png);
+}
+
+#quem_somos, 
+#contato, 
+#cursos {
+    background: url(../Imagen/fundo2.png);
+}
+
+main {
+    width: 68.8%;
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);    
+}
+/* Fim Geral */
+
+/* Configurações do header da pagina index */
+header #logo {
+    float: left;
+}
+
+header #logo h1{
+    background: url(../Imagen/logo.png) no-repeat;
+    width: 215px;
+    height: 60px;
+    text-indent: -3000px;
+}
+
+header #menu {
+    float: right;
+}
+
+header #menu ul{
+    float: left;
+    margin-top: 80px;
+}
+
+header #menu li{
+    float: left;
+}
+
+header #menu a{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+header #menu a:hover{
+    background-color: rgb(56, 63, 93);
+    color: rgb(255, 255, 255);
+}
+/* Fim Configurações do header da pagina index */
+
+/* Configurações do header da pagina index */
+#contato header {
+    border-bottom: 1px solid rgb(56, 63, 93);
+}
+/* Fim Configurações do header da pagina index */
+
+/* Configurações do header da pagina quem_somos */
+#quem_somos header {
+    border-bottom: 1px solid rgb(56, 63, 93);
+    margin-bottom: 5px;
+}
+/* Fim Configurações do header da pagina quem_somos */
+
+/* Confgurações do nav da pagina index */
+nav img {
+    margin-top: 3px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+nav h2 {
+    margin-top: 0;
+}
+
+nav p {
+    text-align: justify;
+}
+
+nav {
+    border-bottom: 1px solid rgb(56, 63, 93);
+}
+/* Fim Confgurações do nav da pagina index*/
+
+/* Configurações da nav do quem_somos */
+nav ol {
+    padding: 0;
+    margin-left: 15px;
+}
+/* Fim Configurações da nav do quem_somos */
+
+/* Configurações da nav do cursos */
+#cursos nav {
+    margin-top: 10px;
+}
+
+nav table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+nav td {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+nav tr:hover {
+    background-color: rgb(56, 63, 93);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cor {
+    background-color: rgba(56, 63, 93, 0.3);
+}
+
+nav th {
+    padding: 5px 0px;
+    text-transform: uppercase;
+    border-top: 2px solid rgb(56, 63, 93);
+    border-bottom: 2px solid rgb(56, 63, 93);
+}
+
+nav .preco {
+    text-align: right;
+    padding-right: 10px;
+}
+
+nav h3 {
+    text-align: center;
+    background-color: rgba(56, 63, 93, 0.3);
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 5px;
+}
+/* Fim Configurações da nav do cursos */
+
+/* Configurações da nav do contato */
+fieldset {
+    padding: 1em;
+    border: 1px solid #ccc;
+    margin: 1em 0em;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 15em;
+}
+
+textarea {
+    width: 15em;
+    height: 5em;
+}
+/* Fim Configurações da nav do contato */
+
+/* Configurações do footer da pagina index*/
+footer {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Fim Configurações do footer da pagina index */
